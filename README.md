@@ -10,6 +10,8 @@ but they should work for more use cases.
 
 ## How to use / test
 
+*Note:* I modified the compose file to scale the workers, which requires ```docker-compose --compatibility up -d``` to run.
+
 A helper docker-compose file is provided to test functionality.
 
 ```
