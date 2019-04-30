@@ -19,7 +19,8 @@ services:
     image: daskdev/dask
     hostname: dask-worker
     command: ["dask-worker", "tcp://scheduler:8786"]
-    scale: 3
+    deploy:
+      replicas: 3
 
   notebook:
     build:
